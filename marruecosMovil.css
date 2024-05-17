@@ -1,0 +1,97 @@
+@media only screen and (max-width: 780px){
+  body{
+    color: #191919;
+    background-image: linear-gradient(60deg, #FDF5E6, #fdd3ce);
+  }
+  .cajaMarruecos{
+	width: 100%;
+	margin: 0% 0%;
+  }
+  h1{
+	font-size: 3em;
+  }
+  h2{
+    font: normal 2em/1em 'IM Fell DW Pica', serif;
+    margin: 3% 5%;
+  }
+  h3{
+    font: normal 1.8em/1em 'IM Fell DW Pica', serif;
+    margin: 2% 5%;
+  }
+  p{
+    font: normal 1.3em/1.5em 'Cambo', serif;
+    margin: 3% 5%;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #8b0000;
+    margin: 2% 0%;
+    position: sticky;
+    top: 0;
+  }
+  nav a{
+    color: #FDF5E6;
+    padding: 1% 0%;
+    font: normal 1em/1.2em 'IM Fell DW Pica', serif;
+    width: 50%;
+    text-align: center;
+    text-decoration-line: none;
+  }
+  nav a:hover{
+    background-color: #FDF5E6;
+    color: #8b0000;
+    font-size: 1.2em;
+  }
+  #sitios a{
+    width: 48%;
+    margin: 1%;
+  }
+  #sitios a div{
+    border-radius: 10px 5px;
+  }
+  #sitios div p{
+    font-size: 1.4em;
+    background-color: rgba(0, 0, 25, .4);
+    color: #fdd3ce;
+  }
+  #marruecosArte{
+    align-items: baseline;
+  }
+  #marruecosArte figure{
+    width: 100%;
+    margin: 1% 0%;
+    padding: 0;
+  }
+  #marruecosArte figure img{
+    width: 100%;
+    margin: 0% 0%;
+    max-width: 100%;
+    height: auto;
+    max-height: auto;
+  }
+  #marruecosArte figcaption{
+    width: 100%;
+    margin: 0% 0%; 
+    padding: 2% 0%;
+    font: normal 1em/1em 'IM Fell DW Pica', serif;
+    text-align: center;
+    color: #FDF5E6;
+    background-color: #8b0000;
+  }
+  #marruecosArte figcaption:nth-child(2n){
+    background-color: #5a91bf;
+  }
+  #marruecosArte figure.arteOculto{
+    display: block;
+  }
+  #multimedia iframe{
+    width: 100%;
+  }
+  form{
+    width: 90%;
+    margin: 3% 5%;
+  }
+}
